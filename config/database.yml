@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: Shraddha@123
+  host: localhost
+
+development:
+  <<: *default
+  database: announcement_hub_db
+
+test:
+  <<: *default
+  database: announcement_hub_db
+
+production:
+  <<: *default
+  database: announcement_hub_db
+  username: root
+  password: root
