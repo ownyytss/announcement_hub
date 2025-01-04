@@ -59,7 +59,7 @@ gem "cocoon"
 gem 'rubyzip', '~> 1.1.0'
 gem 'axlsx', '2.1.0.pre'
 gem 'axlsx_rails'
-gem 'gridhook'
+# gem 'gridhook'
 gem 'multipart-post'
 # gem 'emailhunter'
 gem 'faye'
@@ -111,6 +111,7 @@ gem 'activeadmin-searchable_select'
 gem 'chunky_png', '~> 1.3', '>= 1.3.5'
 gem 'nokogiri', '1.8.5'
 gem 'loofah', '2.2.3'
+gem 'sassc', '2.1.0'
 
 
 group :production, :test do
