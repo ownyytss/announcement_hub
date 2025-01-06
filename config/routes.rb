@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   # Devise routes for regular users
   devise_for :users
+
+  resources :users, only: [:index,:show]
+  resources :posts
+
 end

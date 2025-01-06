@@ -717,6 +717,9 @@ GEM
       rails (>= 3.0.0)
     ttfunk (1.5.1)
     tty-which (0.4.1)
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
     tzinfo (1.2.11)
@@ -882,6 +885,7 @@ DEPENDENCIES
   thin
   tinymce-rails
   traceroute
+  turbolinks (~> 5.1)
   uglifier
   validates_timeliness (~> 4.0)
   wicked
