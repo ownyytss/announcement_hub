@@ -113,6 +113,7 @@ gem 'nokogiri', '1.8.5'
 gem 'loofah', '2.2.3'
 gem 'sassc', '2.1.0'
 gem 'turbolinks', '~> 5.1'
+gem 'image_processing'
 
 group :production, :test do
   gem 'secure_headers'
